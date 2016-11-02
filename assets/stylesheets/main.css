@@ -227,7 +227,7 @@ ul {
 }
 /*Background image Setup*/
 body{
-	background-image: url("../images/background-image.jpg");
+	background-image: url("../images/background_image.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: repeat-y;
