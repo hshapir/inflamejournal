@@ -220,6 +220,11 @@ ul {
 	text-decoration: none;
 }
 
+.box >article > h2> a {
+	color: white;
+	text-decoration: none;
+}
+
 .box > article > ul{
 	color: white;
 	text-decoration: none;
