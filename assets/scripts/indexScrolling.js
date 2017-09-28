@@ -1,6 +1,6 @@
 var scrollTrue;
 var lastScrollTop = 0;
-var sections = ['#mainScreen', '#staff', '#issues', '#submit'];
+var sections = ['#mainScreen', '#staff', '#issues', '#editorApps', '#submit'];
 var secIndex = 0;
 var isMachineScroll=false;
 var lastSuccessfulScroll = new Date().getTime();
@@ -10,7 +10,7 @@ $(document).ready(function(){
 		if(new Date().getTime() - lastSuccessfulScroll < 1000){
 			return;
 		}
-		if(e.originalEvent.deltaY > 0 && secIndex < 3){
+		if(e.originalEvent.deltaY > 0 && secIndex < 4){
 			secIndex++;
 			scrollToSnapPoint();
 		}
