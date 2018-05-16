@@ -1,0 +1,9 @@
+.scrollScreen{
+	margin-top: 0;
+	width: 100%;
+	margin-left: 0;
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 100vh;
+	min-width: 100vw;
+}
